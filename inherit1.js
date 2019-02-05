@@ -51,11 +51,11 @@ Yes, its value is 4.
 JavaScript does not have "methods" in the form that 
 class-based languages define them. In JavaScript, any function 
 can be added to an object in the form of a property. 
-Anvinherited function acts just as any other property, 
+Any inherited function acts just as any other property, 
 including property shadowing
 
 
-When an inherited function is executed, the value of this 
+When an inherited function is executed, the value of "this" 
 points to the inheriting object, not to the prototype object 
 where the function is an own property.
 */
