@@ -77,7 +77,7 @@ of the object it is called on
 
 const Amara = Hunter.prototype;
 console.log(Amara);
-//Amara is only a prototype object
+// Amara is only a prototype object
 
 
 const rhea = new Hunter();
@@ -86,11 +86,11 @@ console.log(rhea);
 console.log(rhea.getHt());
 console.log(Object.getPrototypeOf(rhea));
 
-/*
-Methods are working because they are referred to
-the prototype. All the other properties are empty
-(undefined) but interestingly two properties - ht and wt
-are not because property "sex" is empty. Wow!.
-*/
+/**
+ * Methods are working because they are referred to
+ * the prototype. All the other properties are empty
+ * (undefined) but interestingly two properties - ht and wt
+ * are not because property "sex" is empty. Wow!.
+ */
 
 module.exports = Hunter;
